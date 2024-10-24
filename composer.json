@@ -1,0 +1,25 @@
+{
+  "name" : "maxowar/querypotter",
+  "license": "Apache-2.0",
+  "description" : "VWFS trade portal",
+  "require": {
+    "php" : "8.3.*",
+    "doctrine/orm": "^2.20.0",
+    "symfony/config": "^v7.1.1",
+    "symfony/string": "^7.2.x-dev"
+  },
+  "require-dev": {
+    "codeception/codeception": "5.2.x-dev"
+  },
+  "prefer-stable" : true,
+  "autoload": {
+    "psr-4": {
+      "QueryPotter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "QueryPotter\\Test\\": "tests/Test"
+    }
+  }
+}
